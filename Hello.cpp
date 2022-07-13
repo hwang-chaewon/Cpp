@@ -1,4 +1,4 @@
-#include <iostream> #Ãâ·Â °ü·Ã ¶óÀÌºê·¯¸®
+#include <iostream> #출력 관련 라이브러리
 
 int main() {
 
