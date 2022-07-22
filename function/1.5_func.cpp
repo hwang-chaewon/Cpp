@@ -12,12 +12,12 @@ void printHello() {
 }
 
 void printHelloWorld() {
-	printHello();//ÇÔ¼öµµ ÇÔ¼ö¸¦ ºÎ¸¦ ¼ö ÀÖ´Ù
+	printHello();//í•¨ìˆ˜ë„ í•¨ìˆ˜ë¥¼ ë¶€ë¥¼ ìˆ˜ ìˆë‹¤
 	cout << "world!" << endl;
 
 	cout << "this should be printed!" << endl;
 
-	//void¿¡¼­ return¹®Àº ¼±ÅÃ»çÇ×. ´Ù¸¸ returnÀº ÄÄÆÄÀÏ·¯¿¡°Ô ³ª ´Ù ÀÔ·ÂÇß¾î~ÀÌ°É ¸»ÇÏ´Â °ÍÀÌ¹Ç·Î µÚ¿¡ ¹®ÀåÀº ½ÇÇà ¾È µÉ °Í
+	//voidì—ì„œ returnë¬¸ì€ ì„ íƒì‚¬í•­. ë‹¤ë§Œ returnì€ ì»´íŒŒì¼ëŸ¬ì—ê²Œ ë‚˜ ë‹¤ ì…ë ¥í–ˆì–´~ì´ê±¸ ë§í•˜ëŠ” ê²ƒì´ë¯€ë¡œ ë’¤ì— ë¬¸ì¥ì€ ì‹¤í–‰ ì•ˆ ë  ê²ƒ
 	return;
 
 	cout << "this should be not printed.." << endl;
